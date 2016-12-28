@@ -1,0 +1,1 @@
+puts "My age in seconds: " + (60 * 60 * 24 * 365 * 18).to_s
