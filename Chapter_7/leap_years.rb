@@ -8,8 +8,6 @@ puts ""
 while s <= e
 	if s % 4 == 0 && s % 100 != 0 || s % 400 == 0
 		puts s
-		s += 1
-	else
-		s += 1
 	end
+	s += 1
 end

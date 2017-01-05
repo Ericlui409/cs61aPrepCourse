@@ -1,10 +1,15 @@
 i = 99
 while true
-	if i > 1
+	if i > 2
 		puts i.to_s + " bottles of beer on the wall, " + i.to_s + " bottles of beer."
 		puts "Take one down and pass it around, " + (i - 1).to_s + " bottles of beer on the wall."
 		puts ""
 		i += -1
+	elsif i == 2
+		puts "2 bottles of beer on the wall, 2 bottles of beer."
+		puts "Take one down and pass it around, 1 bottle of beer on the wall."
+		puts ""
+		i += - 1
 	elsif i == 1
 		puts "1 bottle of beer on the wall, 1 bottle of beer."
 		puts "Take one down and pass it around, no more bottles of beer on the wall."
