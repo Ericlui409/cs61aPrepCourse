@@ -95,17 +95,17 @@ end
 i = 9999
 while true
 	if i > 2
-		puts (english_number (i)) + " bottles of beer on the wall, " + (english_number (i)) + " bottles of beer."
+		puts (english_number (i)).capitalize + " bottles of beer on the wall, " + (english_number (i)) + " bottles of beer."
 		puts "Take one down and pass it around, " + (english_number (i - 1)) + " bottles of beer on the wall."
 		puts ""
 		i += -1
 	elsif i == 2
-		puts "two bottles of beer on the wall, two bottles of beer."
+		puts "Two bottles of beer on the wall, two bottles of beer."
 		puts "Take one down and pass it around, one bottle of beer on the wall."
 		puts ""
 		i += - 1
 	elsif i == 1
-		puts "one bottle of beer on the wall, one bottle of beer."
+		puts "One bottle of beer on the wall, one bottle of beer."
 		puts "Take one down and pass it around, no more bottles of beer on the wall."
 		puts ""
 		i += - 1
